@@ -14,7 +14,7 @@ interface MoviesService {
 
 }
 
-class Movies(
+data class Movies(
     @SerializedName(value = "resultCount")
     val resultCount: Int,
 
@@ -22,7 +22,7 @@ class Movies(
     val results: List<MovieResponse>
 )
 
-class MovieResponse(
+data class MovieResponse(
     @SerializedName(value = "trackId")
     val id: Long,
     @SerializedName(value = "trackName")
