@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RecyclerView Example</string>
+    <string name="search">Search</string>
+    <string name="error_movies">Oops! An error has ocurred. Please, try again!</string>
 </resources>
