@@ -19,10 +19,10 @@ data class Movies(
     val resultCount: Int,
 
     @SerializedName(value = "results")
-    val results: List<MovieResponse>
+    val results: List<Movie>
 )
 
-data class MovieResponse(
+data class Movie(
     @SerializedName(value = "trackId")
     val id: Long,
     @SerializedName(value = "trackName")
